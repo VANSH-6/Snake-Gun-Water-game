@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #1e1e2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-size: 2.75rem;
+    margin-bottom: 25px;
+    color: #d1d9ff;
+    letter-spacing: 1.2px;
+}
+
+.glass-card {
+    background-color: #2a2a3c;
+    border: 1px solid #3d3d5c;
+    border-radius: 16px;
+    padding: 2.5rem;
+    max-width: 480px;
+    margin: auto;
+    transition: transform 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: scale(1.015);
+}
+
+.btnchoices {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    flex: 1;
+    background-color: royalblue;
+    border: none;
+    color:white;
+    font-size: 1.05rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #7c9eff;
+}
+
+
+#result {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    border-left: 4px solid lightskyblue;
+    border-right: 4px solid lightskyblue;
+    line-height: 2;
+}
+
+
+#score {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    background: rgba(76, 110, 245, 0.1);
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+}
+
+.winner-box {
+    background-color: darkcyan;
+    margin-top: 1.25rem;
+    border-radius: 12px;
+}
+
+.winner {
+    font-weight: bolder;
+    color: gainsboro;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
